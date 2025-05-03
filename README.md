@@ -19,5 +19,10 @@ Fișierul `Problema_SAT.py` include:
 - Implementarea algoritmilor DPLL, DP și Rezoluție
 - Interfață CLI prietenoasă pentru alegerea metodei de rezolvare
 
----
+Fișierul 'Manual_de_utilizare.txt' include:
 
+-O prezentare a modului de utilizare a codului
+-Tipurile de date acceptate
+-Tipurile de date neacceptate
+
+---
