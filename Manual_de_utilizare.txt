@@ -1,0 +1,37 @@
+===========================
+MANUAL DE UTILIZARE - SAT SOLVER
+===========================
+
+Descriere generală:
+-------------------
+Acest program permite testarea satisfiabilității formulelor booleene scrise în Forma Normală Conjunctivă (FNC) folosind trei metode clasice:
+1. DPLL (Davis–Putnam–Logemann–Loveland)
+2. DP (Davis–Putnam)
+3. Rezoluție
+
+Utilizatorul introduce formula dorită, selectează metoda de rezolvare, iar programul afișează dacă formula este satisfiabilă sau nu.
+
+Formatul formulei:
+------------------
+Formulele trebuie introduse în FNC, folosind simbolurile:
+- `v` sau `∨` pentru disjuncție (OR)
+- `^` pentru conjuncție (AND)
+- `~` pentru negare (NOT)
+
+Exemple valide:
+- (A v B) ^ (~A v C)
+- (P ∨ ~Q) ^ (Q ∨ R) ^ (~R)
+
+Literele pot fi oricare caractere alfabetice majuscule.
+
+Cerinte:
+--------
+- Python 3.x
+- Rularea programului se face din linia de comandă
+
+Exemplu:
+-----------------
+Introdu formula FNC (ex: (A v B) ^ (~A v C)): (A v B) ^ (~A v C)
+Alege metoda: 1. DPLL  2. DP  3. Rezoluție
+Număr metodă: 1
+Formula este Satisfiabilă (DPLL).
