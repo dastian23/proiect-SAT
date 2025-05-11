@@ -31,7 +31,29 @@ Cerinte:
 
 Exemplu:
 -----------------
+*Citire din fisier, avand formula : (A v B) ^ (~A v C)
+Vrei să citești formula dintr-un fișier? (da/nu): da
+Introdu numele fișierului: SAT.txt
+
+Formula este satisfiabilă.
+
+
+Metoda     | Timpul (ms) | Memorie (KB)
+----------------------------------------
+DP         | 0.0297      | 2.9219
+DPLL       | 0.0208      | 3.0391
+Rezolutie  | 0.0418      | 3.1904
+----------------------------------------
+
+*Citire de la tastatura, avand formula : (A v B) ^ (~A v C)
+Vrei să citești formula dintr-un fișier? (da/nu): nu
 Introdu formula FNC (ex: (A v B) ^ (~A v C)): (A v B) ^ (~A v C)
-Alege metoda: 1. DPLL  2. DP  3. Rezoluție
+Alege metoda:
+1. DPLL
+2. DP
+3. Rezoluție
 Număr metodă: 1
-Formula este Satisfiabilă (DPLL).
+
+Rezultat: Satisfiabilă
+Timp de execuție: 0.0698 ms
+Memorie utilizată: 3.3984 KB
